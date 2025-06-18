@@ -7,42 +7,97 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white;
     line-height: 1.65;
+    height: 1000px;
 }
 
 .container-navbar {
-    max-width: 2000px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    max-width: 3000px;
     background-color: black;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    height: 60px;
 }
 
-.logo {
-    background-color: aqua;
-}
 
 .logo img {
-    width: 100%;
+    margin: 5px 10px;
+    width: 70px;
 }
 
 .navigasi {
-    font-size: 10px;
-    background-color: blue;
+    font-size: 5px;
+    margin: -27px 8px;
 }
 
 .isi-navigasi {
     display: flex;
     list-style: none;
-    
+    text-decoration: none;
+    margin: 45px auto;
 }
 
 .isi-navigasi li {
-    margin: 20px;
+    font-size: 10px;
+    margin: 4px;
 }
+
+.isi-navigasi li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.isi-navigasi li a:hover {
+    background-color: brown;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2.5px white;
+}
+
+
+
 
 
 @media (min-width: 600px) {
     .container-navbar{
         display: flex;
+        height: 80px;
+    }
+
+    .navigasi {
+    font-size: 30px;
+    margin: -15px 30px;
+    }
+
+
+    .isi-navigasi {
+    display: flex;
+    list-style: none;
+    margin: 5px auto;
+    }
+
+    .isi-navigasi li {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    margin-top: 7px;
+    }
+
+    .logo img {
+    margin: -1px;
+    margin-left: 40px;
+    width: 120px;
+    }
+
+    .isi-navigasi li a:hover {
+    background-color: brown;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow: 2px 2.5px white;
     }
 }
