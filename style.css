@@ -5,132 +5,44 @@ html, body {
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #ddd;
+    background-color: white;
     line-height: 1.65;
-    padding-bottom: 1000px;
 }
 
-/* latihan 1 */
-
-.container-satu {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.kolom-utama {
-    flex: 3;
-    order: 2;
-}
-
-.sidebar-satu {
-    flex: 1;
-    order: 1;
-}
-
-.sidebar-dua {
-    flex: 1;
-    order: 3;
-}
-
-/* latihan kedua */
-
-.container-dua {
-    max-width: 800px;
-    margin: 50px auto;
-}
-
-.layanan {
-    padding: 20px;
-    box-sizing: border-box;
-}
-.layanan.satu {
-    background-color: rgb(55, 55, 185);
-}
-
-.layanan.dua {
-    background-color: rgb(38, 212, 53);
-}
-
-.layanan.tiga {
-    background-color: rgb(184, 63, 47);
-}
-
-/* Latihan ke tiga */
-.container-tiga {
-    max-width: 800px;
-    margin: 50px auto;
+.container-navbar {
+    max-width: 2000px;
+    background-color: black;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
-.thumbnail {
-    width: 40%;
-    margin: 10px;
+.logo {
+    background-color: aqua;
 }
 
-.thumbnail img {
+.logo img {
     width: 100%;
 }
 
-/* latihan 4 */
-
-.container-empat {
-    max-width: 800px;
-    margin: 50px auto;
+.navigasi {
+    font-size: 10px;
+    background-color: blue;
 }
 
-.card {
-    border: 1px solid #999;
-    border-radius: 10px;
-    background-color: #aaa;
-    overflow: hidden;
-    margin: 50px auto;
-    width: 50%;
-}
-
-.card .header {
-    height: 150px;
-    background-color: #666;
-}
-
-.card .content {
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.card.besar {
-    transform: scale(1.12);
-}
-
-/* Responsiv */
-@media(min-width: 600px) {
-    .container-satu {
-    display: flex;    
-    }
-
-    .container-dua {
+.isi-navigasi {
     display: flex;
-    justify-content: space-between;
-    }
+    list-style: none;
+    
+}
 
-    .layanan {
-    width: 30%; 
-    }
+.isi-navigasi li {
+    margin: 20px;
+}
 
-    .thumbnail {
-        width: 25%;
-    }
 
-    .container-empat {
+@media (min-width: 600px) {
+    .container-navbar{
         display: flex;
-    }
-
-    .card {
-        flex: 1;
-        margin: 10px;
     }
 }
