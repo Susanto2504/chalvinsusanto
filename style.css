@@ -13,6 +13,7 @@ body {
 
 /* Bagian Navbar */
 .container-navbar {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,19 +32,18 @@ body {
 
 .navigasi {
     font-size: 5px;
-    margin: -27px 30px 40px;
 }
 
 .isi-navigasi {
+    margin: 19px 40px;
     display: flex;
     list-style: none;
     text-decoration: none;
-    margin: 45px -10px;
 }
 
 .isi-navigasi li {
-    font-size: 10px;
-    margin: -60px 20px 80px;
+    font-size: 8px;
+    padding: 4px;
 }
 
 .isi-navigasi li a {
@@ -66,7 +66,7 @@ body {
 
 .container-home {
     margin-top: 55px;
-    padding: 5px;
+    padding: 10px;
     max-width: 2600px;
     display: flex;
     box-sizing: border-box;
@@ -79,25 +79,26 @@ body {
 .container-home h1 {
     color: aliceblue;
     margin: 20px 2px -18px;
-    font-size: 8px;
+    font-size: 7px;
 }
 
 .container-home h2 {
-    font-size: 20px;
+    font-size: 18px;
     color: aliceblue;
-    margin: 20px 2px -15px;
+    margin: 20px 2px -8px;
 }
 
 .tulisan p {
-    margin: 20px 20px;
-    margin-left: 10px;
-    margin-right: 35px;
-    padding: 8px 8px;
-    background-color: rgb(145, 11, 11);
-    border-radius: 20px;
+
+
 }
 
 .tulisan p a {
+   background-color: rgb(132, 23, 14);
+   font-size: 9px;
+   margin: 10px;
+   border-radius: 20px;
+   padding: 8px;
    text-decoration: none ;
    color: aliceblue;
 }
