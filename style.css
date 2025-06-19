@@ -98,11 +98,11 @@ body {
 }
 
 .container-konten img {
-    width: 40%;
+    width: 50%;
 }
 
 
-@media (min-width: 1900px) {
+@media (min-width: 800px) {
 
 /* Bagian Navbar */
     .container-navbar{
