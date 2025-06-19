@@ -94,7 +94,7 @@ body {
 }
 
 .container-konten img {
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -176,6 +176,4 @@ body {
         background-color: rgb(133, 14, 14);
         border-radius: 14px;
     }
-
-
 }
