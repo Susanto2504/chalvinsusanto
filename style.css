@@ -27,29 +27,32 @@ body {
 
 
 .logo img {
-    margin: 5px 10px;
+    margin: 5px 5px;
     width: 70px;
 }
 
 .navigasi {
     font-size: 5px;
-    margin: -27px 8px;
+    margin: -27px 7px;
 }
 
 .isi-navigasi {
     display: flex;
     list-style: none;
     text-decoration: none;
-    margin: 45px auto;
+    margin: 45px 15px;
 }
 
 .isi-navigasi li {
     font-size: 10px;
-    margin: 4px;
+    margin: 2px 3px 5px;
+    padding-left: 4px;
 }
 
 .isi-navigasi li a {
     text-decoration: none;
+    margin: 5px 4px;
+    padding: 1px;
     color: rgb(255, 255, 255);
 }
 
