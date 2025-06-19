@@ -17,7 +17,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    max-width: 1580px;
+    max-width: 2600px;
     background-color: rgb(25, 23, 23);
     display: flex;
     justify-content: space-between;
@@ -62,11 +62,12 @@ body {
 /* Akhir Navbar */
 
 .container-konten {
+    max-width: 2600px;
     padding: 70px 30px;
     color: white;
     display: flex;
     line-height: 1.16;
-    align-items: stretch;
+    box-sizing: border-box;
 }
 
 .container-konten .tulisan {
@@ -95,7 +96,6 @@ body {
 
 .container-konten img {
     width: 40%;
-    background-color: aqua;
 }
 
 
@@ -146,11 +146,11 @@ body {
 
 /* Konten */
     .container-konten {
+        box-sizing: border-box;
         padding: 90px 100px 20px;
         color: white;
         display: flex;
         line-height: 1.16;
-        align-items: stretch;
     }
 
     .container-konten .tulisan {
