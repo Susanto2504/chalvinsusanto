@@ -102,7 +102,7 @@ body {
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
 
 /* Bagian Navbar */
     .container-navbar{
@@ -154,16 +154,16 @@ body {
     }
 
     .container-konten .tulisan {
-        padding-top: 40px;
+        padding-top: 130px;
     }
     .container-konten h1 {
-        font-size: 30px;
+        font-size: 35px;
         margin: 20px 5px -15px;
     }
 
     .container-konten h2 {
-        font-size: 90px;
-        margin: 20px 5px;
+        font-size: 100px;
+        margin: 20px 6px 35px;
     }
 
     .container-konten img {
