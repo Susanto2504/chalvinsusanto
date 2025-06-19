@@ -61,40 +61,49 @@ body {
 /* Akhir Navbar */
 
 .container-konten {
-    max-width: 2600px;
-    padding: 70px 30px;
-    color: white;
-    display: flex;
     line-height: 1.16;
+}
+
+.container-home {
+    margin-top: 55px;
+    padding: 5px;
+    max-width: 2600px;
+    display: flex;
     box-sizing: border-box;
 }
 
-.container-konten .tulisan {
-    padding-top: 20px;
+.container-home .tulisan {
+    margin-top: 40px;
 }
-.container-konten h1 {
+
+.container-home h1 {
+    color: aliceblue;
+    margin: 20px 2px -18px;
     font-size: 8px;
-    margin: 20px 5px -15px;
 }
 
-.container-konten h2 {
-    font-size: 25px;
-    margin: 20px 5px -12px;
+.container-home h2 {
+    font-size: 20px;
+    color: aliceblue;
+    margin: 20px 2px -15px;
 }
 
-
-.container-konten .tulisan p a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    padding: 4px;
-    font-size: 10px;
-    background-color: rgb(133, 14, 14);
-    border-radius: 7px;
+.tulisan p {
+    margin: 20px 20px;
+    margin-left: 10px;
+    margin-right: 35px;
+    padding: 8px 8px;
+    background-color: rgb(145, 11, 11);
+    border-radius: 20px;
 }
 
-.container-konten img {
-    width: 40%;
+.tulisan p a {
+   text-decoration: none ;
+   color: aliceblue;
+}
+
+.container-home img {
+    width: 50%;
 }
 
 
@@ -147,33 +156,6 @@ body {
         padding: 90px 100px 20px;
         color: white;
         display: flex;
-        line-height: 1.16;
-    }
-
-    .container-konten .tulisan {
-        padding-top: 130px;
-    }
-    .container-konten h1 {
-        font-size: 35px;
-        margin: 20px 5px -15px;
-    }
-
-    .container-konten h2 {
-        font-size: 100px;
-        margin: 20px 6px 35px;
-    }
-
-    .container-konten img {
-        width: 38%;
-    }
-
-    .container-konten .tulisan p a {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        margin-left: 47px;
-        padding: 8px;
-        font-size: 38px;
-        background-color: rgb(133, 14, 14);
-        border-radius: 14px;
+        line-height: 1.16;    
     }
 }
